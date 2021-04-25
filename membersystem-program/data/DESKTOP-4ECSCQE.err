@@ -1,0 +1,801 @@
+2021-04-25 13:22:11 15116 [Note] Plugin 'FEDERATED' is disabled.
+2021-04-25 13:22:11 15116 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2021-04-25 13:22:11 15116 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-04-25 13:22:11 15116 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-04-25 13:22:11 15116 [Note] InnoDB: Memory barrier is not used
+2021-04-25 13:22:11 15116 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-04-25 13:22:11 15116 [Note] InnoDB: Not using CPU crc32 instructions
+2021-04-25 13:22:11 15116 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-04-25 13:22:11 15116 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-25 13:22:11 15116 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-04-25 13:22:13 15116 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-04-25 13:22:13 15116 [Note] InnoDB: Waiting for purge to start
+2021-04-25 13:22:13 15116 [Note] InnoDB: 5.6.35 started; log sequence number 5795174
+2021-04-25 13:22:13 15116 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-04-25 13:22:13 15116 [Note] IPv6 is available.
+2021-04-25 13:22:13 15116 [Note]   - '::' resolves to '::';
+2021-04-25 13:22:13 15116 [Note] Server socket created on IP: '::'.
+2021-04-25 13:22:14 15116 [Note] Event Scheduler: Loaded 0 events
+2021-04-25 13:22:14 15116 [Note] MySQL: ready for connections.
+Version: '5.6.35'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2021-04-25 13:25:09 15116 [Note] MySQL: Normal shutdown
+
+2021-04-25 13:25:09 15116 [Note] Giving 0 client threads a chance to die gracefully
+2021-04-25 13:25:09 15116 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-25 13:25:09 15116 [Note] Shutting down slave threads
+2021-04-25 13:25:09 15116 [Note] Forcefully disconnecting 0 remaining clients
+2021-04-25 13:25:09 15116 [Note] Binlog end
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'partition'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_CMP'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'INNODB_TRX'
+2021-04-25 13:25:09 15116 [Note] Shutting down plugin 'InnoDB'
+2021-04-25 13:25:09 15116 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-25 13:25:09 15116 [Note] InnoDB: Starting shutdown...
+2021-04-25 13:25:10 15116 [Note] InnoDB: Shutdown completed; log sequence number 5795184
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'BLACKHOLE'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'ARCHIVE'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'MyISAM'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'MEMORY'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'CSV'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'sha256_password'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'mysql_old_password'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'mysql_native_password'
+2021-04-25 13:25:10 15116 [Note] Shutting down plugin 'binlog'
+2021-04-25 13:25:10 15116 [Note] MySQL: Shutdown complete
+
+2021-04-25 13:25:20 5328 [Note] Plugin 'FEDERATED' is disabled.
+2021-04-25 13:25:20 5328 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2021-04-25 13:25:20 5328 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-04-25 13:25:20 5328 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-04-25 13:25:20 5328 [Note] InnoDB: Memory barrier is not used
+2021-04-25 13:25:20 5328 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-04-25 13:25:20 5328 [Note] InnoDB: Not using CPU crc32 instructions
+2021-04-25 13:25:20 5328 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-04-25 13:25:20 5328 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-25 13:25:20 5328 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-04-25 13:25:20 5328 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-04-25 13:25:20 5328 [Note] InnoDB: Waiting for purge to start
+2021-04-25 13:25:20 5328 [Note] InnoDB: 5.6.35 started; log sequence number 5795184
+2021-04-25 13:25:20 5328 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-04-25 13:25:20 5328 [Note] IPv6 is available.
+2021-04-25 13:25:20 5328 [Note]   - '::' resolves to '::';
+2021-04-25 13:25:20 5328 [Note] Server socket created on IP: '::'.
+2021-04-25 13:25:20 5328 [Note] MySQL: ready for connections.
+Version: '5.6.35'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2021-04-25 13:26:41 5328 [Note] MySQL: Normal shutdown
+
+2021-04-25 13:26:41 5328 [Note] Giving 0 client threads a chance to die gracefully
+2021-04-25 13:26:41 5328 [Note] Shutting down slave threads
+2021-04-25 13:26:41 5328 [Note] Forcefully disconnecting 0 remaining clients
+2021-04-25 13:26:41 5328 [Note] Binlog end
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'partition'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_CMP'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'INNODB_TRX'
+2021-04-25 13:26:41 5328 [Note] Shutting down plugin 'InnoDB'
+2021-04-25 13:26:41 5328 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-25 13:26:41 5328 [Note] InnoDB: Starting shutdown...
+2021-04-25 13:26:42 5328 [Note] InnoDB: Shutdown completed; log sequence number 5795194
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'BLACKHOLE'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'ARCHIVE'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'MyISAM'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'MEMORY'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'CSV'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'sha256_password'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'mysql_old_password'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'mysql_native_password'
+2021-04-25 13:26:42 5328 [Note] Shutting down plugin 'binlog'
+2021-04-25 13:26:42 5328 [Note] MySQL: Shutdown complete
+
+2021-04-25 13:26:49 11972 [Note] Plugin 'FEDERATED' is disabled.
+2021-04-25 13:26:49 11972 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2021-04-25 13:26:49 11972 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-04-25 13:26:49 11972 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-04-25 13:26:49 11972 [Note] InnoDB: Memory barrier is not used
+2021-04-25 13:26:49 11972 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-04-25 13:26:49 11972 [Note] InnoDB: Not using CPU crc32 instructions
+2021-04-25 13:26:49 11972 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-04-25 13:26:49 11972 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-25 13:26:49 11972 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-04-25 13:26:49 11972 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-04-25 13:26:49 11972 [Note] InnoDB: Waiting for purge to start
+2021-04-25 13:26:49 11972 [Note] InnoDB: 5.6.35 started; log sequence number 5795194
+2021-04-25 13:26:49 11972 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-04-25 13:26:49 11972 [Note] IPv6 is available.
+2021-04-25 13:26:49 11972 [Note]   - '::' resolves to '::';
+2021-04-25 13:26:49 11972 [Note] Server socket created on IP: '::'.
+2021-04-25 13:26:49 11972 [Note] Event Scheduler: Loaded 0 events
+2021-04-25 13:26:49 11972 [Note] MySQL: ready for connections.
+Version: '5.6.35'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2021-04-25 16:03:57 11972 [Note] MySQL: Normal shutdown
+
+2021-04-25 16:03:57 11972 [Note] Giving 0 client threads a chance to die gracefully
+2021-04-25 16:03:57 11972 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-25 16:03:57 11972 [Note] Shutting down slave threads
+2021-04-25 16:03:57 11972 [Note] Forcefully disconnecting 0 remaining clients
+2021-04-25 16:03:57 11972 [Note] Binlog end
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'partition'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_CMP'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'INNODB_TRX'
+2021-04-25 16:03:57 11972 [Note] Shutting down plugin 'InnoDB'
+2021-04-25 16:03:57 11972 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-25 16:03:58 11972 [Note] InnoDB: Starting shutdown...
+2021-04-25 16:03:58 11972 [Note] InnoDB: Shutdown completed; log sequence number 5795204
+2021-04-25 16:03:58 11972 [Note] Shutting down plugin 'BLACKHOLE'
+2021-04-25 16:03:58 11972 [Note] Shutting down plugin 'ARCHIVE'
+2021-04-25 16:03:58 11972 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-04-25 16:03:58 11972 [Note] Shutting down plugin 'MyISAM'
+2021-04-25 16:03:59 11972 [Note] Shutting down plugin 'MEMORY'
+2021-04-25 16:03:59 11972 [Note] Shutting down plugin 'CSV'
+2021-04-25 16:03:59 11972 [Note] Shutting down plugin 'sha256_password'
+2021-04-25 16:03:59 11972 [Note] Shutting down plugin 'mysql_old_password'
+2021-04-25 16:03:59 11972 [Note] Shutting down plugin 'mysql_native_password'
+2021-04-25 16:03:59 11972 [Note] Shutting down plugin 'binlog'
+2021-04-25 16:03:59 11972 [Note] MySQL: Shutdown complete
+
+2021-04-25T08:12:55.319796Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-04-25T08:12:55.319845Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-04-25T08:12:55.319851Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2021-04-25T08:12:55.319881Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-04-25T08:12:55.320203Z 0 [Note] MySQL (mysqld 5.7.34) starting as process 15844 ...
+2021-04-25T08:12:55.321846Z 0 [ERROR] Error message file 'D:\Softwares\Mysql-5.6.35\mysql-5.6.35-winx64\mysql-5.6.35-winx64\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1121 error messages.
+                    Check that the above file is the right version for                     this program!
+2021-04-25T08:12:55.379821Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-04-25T08:12:55.380434Z 0 [Note] InnoDB: Uses event mutexes
+2021-04-25T08:12:55.380803Z 0 [Note] InnoDB: Memory barrier is not used
+2021-04-25T08:12:55.381187Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-25T08:12:55.384928Z 0 [Note] InnoDB: Number of pools: 1
+2021-04-25T08:12:55.395005Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-04-25T08:12:55.407068Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-04-25T08:12:55.424744Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-25T08:12:55.542139Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-04-25T08:12:56.055861Z 0 [Warning] InnoDB: Upgrading redo log: 2*3072 pages, LSN=5795204
+2021-04-25T08:12:56.196880Z 0 [Warning] InnoDB: Starting to delete and rewrite log files.
+2021-04-25T08:12:56.202250Z 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+2021-04-25T08:12:56.720675Z 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+2021-04-25T08:12:57.403251Z 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2021-04-25T08:12:57.418283Z 0 [Warning] InnoDB: New log files created, LSN=5795204
+2021-04-25T08:12:57.422795Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-25T08:12:57.423427Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-25T08:12:57.582636Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2021-04-25T08:12:57.620122Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-04-25T08:12:57.622618Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-04-25T08:12:57.624908Z 0 [Note] InnoDB: Creating sys_virtual system tables.
+2021-04-25T08:12:57.657576Z 0 [Note] InnoDB: sys_virtual table created
+2021-04-25T08:12:57.658624Z 0 [Note] InnoDB: Waiting for purge to start
+2021-04-25T08:12:57.722225Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 0
+2021-04-25T08:12:57.723238Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Softwares\Mysql-5.6.35\mysql-5.6.35-winx64\mysql-5.6.35-winx64\data\ib_buffer_pool
+2021-04-25T08:12:57.723791Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-04-25T08:12:57.724230Z 0 [ERROR] InnoDB: Cannot open 'D:\Softwares\Mysql-5.6.35\mysql-5.6.35-winx64\mysql-5.6.35-winx64\data\ib_buffer_pool' for reading: No such file or directory
+2021-04-25T08:12:57.765109Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2021-04-25T08:12:57.801535Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-04-25T08:12:59.382795Z 0 [Note] Auto generated SSL certificates are placed in data directory.
+2021-04-25T08:12:59.384834Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-04-25T08:13:00.160828Z 0 [Note] Auto generated RSA key files are placed in data directory.
+2021-04-25T08:13:00.173780Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-04-25T08:13:00.174582Z 0 [Note] IPv6 is available.
+2021-04-25T08:13:00.174917Z 0 [Note]   - '::' resolves to '::';
+2021-04-25T08:13:00.175382Z 0 [Note] Server socket created on IP: '::'.
+2021-04-25T08:13:00.177231Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2021-04-25T08:13:00.288027Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2021-04-25T08:13:00.289924Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2021-04-25T08:13:00.291605Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2021-04-25T08:13:00.293316Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2021-04-25T08:13:00.296011Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2021-04-25T08:13:00.336803Z 0 [Warning] System table 'servers' is expected to be transactional.
+2021-04-25T08:13:00.405223Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-04-25T08:13:00.415893Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2021-04-25T08:13:00.420901Z 0 [Note] Failed to start slave threads for channel ''
+2021-04-25T08:13:00.437149Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T08:13:00.448381Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T08:13:00.453822Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T08:13:00.471125Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.472790Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.490285Z 0 [ERROR] 
+2021-04-25T08:13:00.492076Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2021-04-25T08:13:00.514459Z 0 [ERROR] 
+2021-04-25T08:13:00.515697Z 0 [ERROR] 
+2021-04-25T08:13:00.516758Z 0 [ERROR] 
+2021-04-25T08:13:00.517663Z 0 [ERROR] 
+2021-04-25T08:13:00.519068Z 0 [ERROR] 
+2021-04-25T08:13:00.521127Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.522834Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.526599Z 0 [ERROR] 
+2021-04-25T08:13:00.527779Z 0 [ERROR] 
+2021-04-25T08:13:00.528725Z 0 [ERROR] 
+2021-04-25T08:13:00.530487Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.532421Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.536362Z 0 [ERROR] 
+2021-04-25T08:13:00.536857Z 0 [ERROR] 
+2021-04-25T08:13:00.537221Z 0 [ERROR] 
+2021-04-25T08:13:00.537579Z 0 [ERROR] 
+2021-04-25T08:13:00.537882Z 0 [ERROR] 
+2021-04-25T08:13:00.538192Z 0 [ERROR] 
+2021-04-25T08:13:00.538494Z 0 [ERROR] 
+2021-04-25T08:13:00.538801Z 0 [ERROR] 
+2021-04-25T08:13:00.539093Z 0 [ERROR] 
+2021-04-25T08:13:00.539929Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.541758Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:13:00.548240Z 0 [ERROR] 
+2021-04-25T08:13:00.548708Z 0 [ERROR] 
+2021-04-25T08:13:00.549097Z 0 [ERROR] 
+2021-04-25T08:13:00.549467Z 0 [ERROR] 
+2021-04-25T08:13:00.549820Z 0 [ERROR] 
+2021-04-25T08:13:00.550142Z 0 [ERROR] 
+2021-04-25T08:13:00.550458Z 0 [ERROR] 
+2021-04-25T08:13:00.550787Z 0 [ERROR] 
+2021-04-25T08:13:00.551098Z 0 [ERROR] 
+2021-04-25T08:13:00.551395Z 0 [ERROR] 
+2021-04-25T08:13:00.551706Z 0 [ERROR] 
+2021-04-25T08:13:00.552008Z 0 [ERROR] 
+2021-04-25T08:13:00.552330Z 0 [ERROR] 
+2021-04-25T08:13:00.552630Z 0 [ERROR] 
+2021-04-25T08:13:00.552934Z 0 [ERROR] 
+2021-04-25T08:13:00.553225Z 0 [ERROR] 
+2021-04-25T08:13:00.553535Z 0 [ERROR] 
+2021-04-25T08:13:00.553826Z 0 [ERROR] 
+2021-04-25T08:13:00.554136Z 0 [ERROR] 
+2021-04-25T08:13:00.554429Z 0 [ERROR] 
+2021-04-25T08:13:00.554750Z 0 [ERROR] 
+2021-04-25T08:13:00.555337Z 0 [ERROR] 
+2021-04-25T08:13:00.555635Z 0 [ERROR] 
+2021-04-25T08:13:00.555952Z 0 [ERROR] 
+2021-04-25T08:13:00.556615Z 0 [ERROR] 
+2021-04-25T08:13:00.557022Z 0 [ERROR] 
+2021-04-25T08:13:00.582756Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2021-04-25T08:13:00.583612Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2021-04-25T08:13:00.601133Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2021-04-25T08:13:00.602045Z 0 [Note] 
+2021-04-25T08:13:18.845225Z 2 [Note] 
+2021-04-25T08:16:43.906822Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-04-25T08:16:43.906872Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-04-25T08:16:43.906877Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2021-04-25T08:16:43.906905Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-04-25T08:16:43.907232Z 0 [Note] MySQL (mysqld 5.7.34) starting as process 8128 ...
+2021-04-25T08:16:44.003580Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-04-25T08:16:44.004477Z 0 [Note] InnoDB: Uses event mutexes
+2021-04-25T08:16:44.006786Z 0 [Note] InnoDB: Memory barrier is not used
+2021-04-25T08:16:44.009597Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-25T08:16:44.015311Z 0 [Note] InnoDB: Number of pools: 1
+2021-04-25T08:16:44.022090Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-04-25T08:16:44.029509Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-04-25T08:16:44.037200Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-25T08:16:44.102581Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-04-25T08:16:44.134334Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 5872660
+2021-04-25T08:16:44.134900Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 5872669
+2021-04-25T08:16:44.135455Z 0 [Note] InnoDB: Database was not shutdown normally!
+2021-04-25T08:16:44.135860Z 0 [Note] InnoDB: Starting crash recovery.
+2021-04-25T08:16:45.434172Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-25T08:16:45.434694Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-25T08:16:45.435358Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-25T08:16:45.607351Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2021-04-25T08:16:45.636550Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-04-25T08:16:45.637147Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-04-25T08:16:45.638419Z 0 [Note] InnoDB: Waiting for purge to start
+2021-04-25T08:16:45.696041Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 5872669
+2021-04-25T08:16:45.698783Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-04-25T08:16:45.701009Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Softwares\mysql-5.7.34-win32\data\ib_buffer_pool
+2021-04-25T08:16:45.702151Z 0 [ERROR] InnoDB: Cannot open 'D:\Softwares\mysql-5.7.34-win32\data\ib_buffer_pool' for reading: No such file or directory
+2021-04-25T08:16:45.810551Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2021-04-25T08:16:45.818398Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-04-25T08:16:45.821088Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-04-25T08:16:45.821726Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-04-25T08:16:45.852555Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-04-25T08:16:45.854409Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-04-25T08:16:45.856699Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-04-25T08:16:45.857699Z 0 [Note] IPv6 is available.
+2021-04-25T08:16:45.858071Z 0 [Note]   - '::' resolves to '::';
+2021-04-25T08:16:45.858463Z 0 [Note] Server socket created on IP: '::'.
+2021-04-25T08:16:45.860055Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2021-04-25T08:16:46.461122Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2021-04-25T08:16:46.461765Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2021-04-25T08:16:46.462267Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2021-04-25T08:16:46.463244Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2021-04-25T08:16:46.464566Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2021-04-25T08:16:46.591648Z 0 [Warning] System table 'servers' is expected to be transactional.
+2021-04-25T08:16:46.726832Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-04-25T08:16:46.762369Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2021-04-25T08:16:46.764191Z 0 [Note] Failed to start slave threads for channel ''
+2021-04-25T08:16:46.828813Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T08:16:46.848707Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T08:16:46.864620Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T08:16:46.922881Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:46.945135Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:47.118555Z 0 [ERROR] Column count of performance_schema.setup_actors is wrong. Expected 5, found 3. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.144151Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2021-04-25T08:16:47.172425Z 0 [ERROR] Column count of performance_schema.table_lock_waits_summary_by_table is wrong. Expected 68, found 73. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.180324Z 0 [ERROR] Column count of performance_schema.threads is wrong. Expected 17, found 14. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.194799Z 0 [ERROR] Column count of performance_schema.events_stages_current is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.206123Z 0 [ERROR] Column count of performance_schema.events_stages_history is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.222202Z 0 [ERROR] Column count of performance_schema.events_stages_history_long is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.244833Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:47.257603Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:47.299460Z 0 [ERROR] Column count of performance_schema.events_statements_current is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.315224Z 0 [ERROR] Column count of performance_schema.events_statements_history is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.333264Z 0 [ERROR] Column count of performance_schema.events_statements_history_long is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T08:16:47.358726Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:47.367502Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:47.408257Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_program' has the wrong structure
+2021-04-25T08:16:47.409009Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_current' has the wrong structure
+2021-04-25T08:16:47.409721Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history' has the wrong structure
+2021-04-25T08:16:47.410341Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history_long' has the wrong structure
+2021-04-25T08:16:47.410960Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_thread_by_event_name' has the wrong structure
+2021-04-25T08:16:47.411632Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_account_by_event_name' has the wrong structure
+2021-04-25T08:16:47.412304Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_user_by_event_name' has the wrong structure
+2021-04-25T08:16:47.412958Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_host_by_event_name' has the wrong structure
+2021-04-25T08:16:47.413648Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_global_by_event_name' has the wrong structure
+2021-04-25T08:16:47.420800Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:47.434098Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T08:16:47.485117Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_global_by_event_name' has the wrong structure
+2021-04-25T08:16:47.485882Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_account_by_event_name' has the wrong structure
+2021-04-25T08:16:47.486573Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_host_by_event_name' has the wrong structure
+2021-04-25T08:16:47.487207Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_thread_by_event_name' has the wrong structure
+2021-04-25T08:16:47.487851Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_user_by_event_name' has the wrong structure
+2021-04-25T08:16:47.488473Z 0 [ERROR] Native table 'performance_schema'.'table_handles' has the wrong structure
+2021-04-25T08:16:47.489015Z 0 [ERROR] Native table 'performance_schema'.'metadata_locks' has the wrong structure
+2021-04-25T08:16:47.489557Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_configuration' has the wrong structure
+2021-04-25T08:16:47.490173Z 0 [ERROR] Native table 'performance_schema'.'replication_group_members' has the wrong structure
+2021-04-25T08:16:47.490755Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_status' has the wrong structure
+2021-04-25T08:16:47.491346Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_configuration' has the wrong structure
+2021-04-25T08:16:47.491944Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status' has the wrong structure
+2021-04-25T08:16:47.492519Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_coordinator' has the wrong structure
+2021-04-25T08:16:47.493154Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_worker' has the wrong structure
+2021-04-25T08:16:47.493758Z 0 [ERROR] Native table 'performance_schema'.'replication_group_member_stats' has the wrong structure
+2021-04-25T08:16:47.494346Z 0 [ERROR] Native table 'performance_schema'.'prepared_statements_instances' has the wrong structure
+2021-04-25T08:16:47.494928Z 0 [ERROR] Native table 'performance_schema'.'user_variables_by_thread' has the wrong structure
+2021-04-25T08:16:47.495493Z 0 [ERROR] Native table 'performance_schema'.'status_by_account' has the wrong structure
+2021-04-25T08:16:47.496031Z 0 [ERROR] Native table 'performance_schema'.'status_by_host' has the wrong structure
+2021-04-25T08:16:47.496762Z 0 [ERROR] Native table 'performance_schema'.'status_by_thread' has the wrong structure
+2021-04-25T08:16:47.497342Z 0 [ERROR] Native table 'performance_schema'.'status_by_user' has the wrong structure
+2021-04-25T08:16:47.497905Z 0 [ERROR] Native table 'performance_schema'.'global_status' has the wrong structure
+2021-04-25T08:16:47.498470Z 0 [ERROR] Native table 'performance_schema'.'session_status' has the wrong structure
+2021-04-25T08:16:47.499023Z 0 [ERROR] Native table 'performance_schema'.'variables_by_thread' has the wrong structure
+2021-04-25T08:16:47.499590Z 0 [ERROR] Native table 'performance_schema'.'global_variables' has the wrong structure
+2021-04-25T08:16:47.500144Z 0 [ERROR] Native table 'performance_schema'.'session_variables' has the wrong structure
+2021-04-25T08:16:47.500785Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2021-04-25T08:16:47.501423Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2021-04-25T08:16:47.540797Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2021-04-25T08:16:47.541765Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2021-04-25T08:33:07.158209Z 3 [Note] Aborted connection 3 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:33:11.981256Z 4 [Note] Aborted connection 4 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:33:26.847013Z 5 [Note] Aborted connection 5 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:34:42.512158Z 6 [Note] Aborted connection 6 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:46:58.610093Z 7 [Note] Aborted connection 7 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:49:51.395381Z 8 [Note] Aborted connection 8 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:54:26.226340Z 11 [Note] Aborted connection 11 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:54:28.791090Z 10 [Note] Aborted connection 10 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:54:31.570013Z 9 [Note] Aborted connection 9 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:54:45.264644Z 12 [Note] Aborted connection 12 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:55:09.763663Z 13 [Note] Aborted connection 13 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:56:44.818134Z 14 [Note] Aborted connection 14 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T08:57:14.296196Z 15 [Note] Aborted connection 15 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:42:40.312705Z 16 [Note] Aborted connection 16 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:46:27.101241Z 17 [Note] Aborted connection 17 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:46:32.538636Z 18 [Note] Aborted connection 18 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:48:35.659443Z 19 [Note] Aborted connection 19 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:54:06.464880Z 20 [Note] Aborted connection 20 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:54:38.971074Z 21 [Note] Aborted connection 21 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:55:00.003481Z 22 [Note] Aborted connection 22 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T09:55:32.109114Z 23 [Note] Aborted connection 23 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T10:02:17.055058Z 24 [Note] Aborted connection 24 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T10:02:56.852535Z 25 [Note] Aborted connection 25 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T10:08:23.792178Z 26 [Note] Aborted connection 26 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T12:52:44.897807Z 0 [Note] MySQL: Normal shutdown
+
+2021-04-25T12:52:45.060928Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2021-04-25T12:52:45.063408Z 0 [Note] Shutting down slave threads
+2021-04-25T12:52:45.078089Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2021-04-25T12:52:45.101828Z 0 [Note] Binlog end
+2021-04-25T12:52:45.137418Z 0 [Note] Shutting down plugin 'ngram'
+2021-04-25T12:52:45.138131Z 0 [Note] Shutting down plugin 'partition'
+2021-04-25T12:52:45.138383Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2021-04-25T12:52:45.138848Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2021-04-25T12:52:45.139085Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-04-25T12:52:45.140003Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-04-25T12:52:45.140678Z 0 [Note] Shutting down plugin 'MyISAM'
+2021-04-25T12:52:45.141210Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2021-04-25T12:52:45.141481Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-04-25T12:52:45.141746Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-04-25T12:52:45.142058Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-04-25T12:52:45.142339Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-04-25T12:52:45.142713Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-04-25T12:52:45.142966Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-04-25T12:52:45.143222Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-04-25T12:52:45.143481Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-04-25T12:52:45.143749Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-04-25T12:52:45.144003Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-04-25T12:52:45.144269Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-04-25T12:52:45.144538Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-04-25T12:52:45.144793Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-04-25T12:52:45.145069Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-04-25T12:52:45.145321Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-04-25T12:52:45.145608Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-04-25T12:52:45.145857Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2021-04-25T12:52:45.146130Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-04-25T12:52:45.146425Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-04-25T12:52:45.146698Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-04-25T12:52:45.146959Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-04-25T12:52:45.147243Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-04-25T12:52:45.147507Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-04-25T12:52:45.147768Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-04-25T12:52:45.148010Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-04-25T12:52:45.148264Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2021-04-25T12:52:45.148501Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-04-25T12:52:45.148754Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-04-25T12:52:45.148993Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2021-04-25T12:52:45.149235Z 0 [Note] Shutting down plugin 'InnoDB'
+2021-04-25T12:52:45.163313Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-25T12:52:45.163993Z 0 [Note] InnoDB: Starting shutdown...
+2021-04-25T12:52:45.317947Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\Softwares\mysql-5.7.34-win32\data\ib_buffer_pool
+2021-04-25T12:52:45.332482Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 210425 20:52:45
+2021-04-25T12:52:46.505022Z 0 [Note] InnoDB: Shutdown completed; log sequence number 5872697
+2021-04-25T12:52:46.505841Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-25T12:52:46.506182Z 0 [Note] Shutting down plugin 'MEMORY'
+2021-04-25T12:52:46.506672Z 0 [Note] Shutting down plugin 'CSV'
+2021-04-25T12:52:46.506984Z 0 [Note] Shutting down plugin 'sha256_password'
+2021-04-25T12:52:46.507297Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2021-04-25T12:52:46.530693Z 0 [Note] Shutting down plugin 'binlog'
+2021-04-25T12:52:46.592349Z 0 [Note] MySQL: Shutdown complete
+
+2021-04-25T12:53:10.500757Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-04-25T12:53:10.528206Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-04-25T12:53:10.528235Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2021-04-25T12:53:10.528272Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-04-25T12:53:10.536838Z 0 [Note] MySQL (mysqld 5.7.34) starting as process 4040 ...
+2021-04-25T12:53:10.899367Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-04-25T12:53:10.900513Z 0 [Note] InnoDB: Uses event mutexes
+2021-04-25T12:53:10.901625Z 0 [Note] InnoDB: Memory barrier is not used
+2021-04-25T12:53:10.902452Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-25T12:53:10.906944Z 0 [Note] InnoDB: Number of pools: 1
+2021-04-25T12:53:10.917520Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-04-25T12:53:10.974764Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-04-25T12:53:10.985173Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-25T12:53:11.227670Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-04-25T12:53:12.437444Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-25T12:53:12.438446Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-25T12:53:12.628223Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2021-04-25T12:53:12.630919Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-04-25T12:53:12.634939Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-04-25T12:53:12.636201Z 0 [Note] InnoDB: Waiting for purge to start
+2021-04-25T12:53:12.742012Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 5872697
+2021-04-25T12:53:12.800930Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Softwares\mysql-5.7.34-win32\data\ib_buffer_pool
+2021-04-25T12:53:12.851548Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-04-25T12:53:12.997213Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210425 20:53:12
+2021-04-25T12:53:13.063806Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2021-04-25T12:53:13.079387Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-04-25T12:53:13.174567Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-04-25T12:53:13.175213Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-04-25T12:53:13.248632Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-04-25T12:53:13.249696Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-04-25T12:53:13.272731Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-04-25T12:53:13.273937Z 0 [Note] IPv6 is available.
+2021-04-25T12:53:13.274453Z 0 [Note]   - '::' resolves to '::';
+2021-04-25T12:53:13.274936Z 0 [Note] Server socket created on IP: '::'.
+2021-04-25T12:53:13.276605Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2021-04-25T12:53:13.546063Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2021-04-25T12:53:13.546790Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2021-04-25T12:53:13.547289Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2021-04-25T12:53:13.547724Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2021-04-25T12:53:13.549358Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2021-04-25T12:53:13.660019Z 0 [Warning] System table 'servers' is expected to be transactional.
+2021-04-25T12:53:13.741683Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-04-25T12:53:13.754447Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2021-04-25T12:53:13.786246Z 0 [Note] Failed to start slave threads for channel ''
+2021-04-25T12:53:13.926835Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T12:53:13.937168Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T12:53:13.949258Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T12:53:13.997849Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.050918Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.161141Z 0 [ERROR] Column count of performance_schema.setup_actors is wrong. Expected 5, found 3. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.202293Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2021-04-25T12:53:14.209423Z 0 [ERROR] Column count of performance_schema.table_lock_waits_summary_by_table is wrong. Expected 68, found 73. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.216406Z 0 [ERROR] Column count of performance_schema.threads is wrong. Expected 17, found 14. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.228430Z 0 [ERROR] Column count of performance_schema.events_stages_current is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.258111Z 0 [ERROR] Column count of performance_schema.events_stages_history is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.298080Z 0 [ERROR] Column count of performance_schema.events_stages_history_long is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.321867Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.333453Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.372041Z 0 [ERROR] Column count of performance_schema.events_statements_current is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.384006Z 0 [ERROR] Column count of performance_schema.events_statements_history is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.484806Z 0 [ERROR] Column count of performance_schema.events_statements_history_long is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T12:53:14.510428Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.518755Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.550099Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_program' has the wrong structure
+2021-04-25T12:53:14.551131Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_current' has the wrong structure
+2021-04-25T12:53:14.552135Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history' has the wrong structure
+2021-04-25T12:53:14.583324Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history_long' has the wrong structure
+2021-04-25T12:53:14.584197Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_thread_by_event_name' has the wrong structure
+2021-04-25T12:53:14.585149Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_account_by_event_name' has the wrong structure
+2021-04-25T12:53:14.586052Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_user_by_event_name' has the wrong structure
+2021-04-25T12:53:14.586980Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_host_by_event_name' has the wrong structure
+2021-04-25T12:53:14.587742Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_global_by_event_name' has the wrong structure
+2021-04-25T12:53:14.589584Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.601966Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T12:53:14.615378Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_global_by_event_name' has the wrong structure
+2021-04-25T12:53:14.671908Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_account_by_event_name' has the wrong structure
+2021-04-25T12:53:14.674111Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_host_by_event_name' has the wrong structure
+2021-04-25T12:53:14.674860Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_thread_by_event_name' has the wrong structure
+2021-04-25T12:53:14.675655Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_user_by_event_name' has the wrong structure
+2021-04-25T12:53:14.676345Z 0 [ERROR] Native table 'performance_schema'.'table_handles' has the wrong structure
+2021-04-25T12:53:14.676959Z 0 [ERROR] Native table 'performance_schema'.'metadata_locks' has the wrong structure
+2021-04-25T12:53:14.677577Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_configuration' has the wrong structure
+2021-04-25T12:53:14.678279Z 0 [ERROR] Native table 'performance_schema'.'replication_group_members' has the wrong structure
+2021-04-25T12:53:14.678974Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_status' has the wrong structure
+2021-04-25T12:53:14.679768Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_configuration' has the wrong structure
+2021-04-25T12:53:14.680538Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status' has the wrong structure
+2021-04-25T12:53:14.681487Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_coordinator' has the wrong structure
+2021-04-25T12:53:14.682294Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_worker' has the wrong structure
+2021-04-25T12:53:14.683135Z 0 [ERROR] Native table 'performance_schema'.'replication_group_member_stats' has the wrong structure
+2021-04-25T12:53:14.683798Z 0 [ERROR] Native table 'performance_schema'.'prepared_statements_instances' has the wrong structure
+2021-04-25T12:53:14.684461Z 0 [ERROR] Native table 'performance_schema'.'user_variables_by_thread' has the wrong structure
+2021-04-25T12:53:14.685083Z 0 [ERROR] Native table 'performance_schema'.'status_by_account' has the wrong structure
+2021-04-25T12:53:14.685915Z 0 [ERROR] Native table 'performance_schema'.'status_by_host' has the wrong structure
+2021-04-25T12:53:14.686569Z 0 [ERROR] Native table 'performance_schema'.'status_by_thread' has the wrong structure
+2021-04-25T12:53:14.687178Z 0 [ERROR] Native table 'performance_schema'.'status_by_user' has the wrong structure
+2021-04-25T12:53:14.763359Z 0 [ERROR] Native table 'performance_schema'.'global_status' has the wrong structure
+2021-04-25T12:53:14.766027Z 0 [ERROR] Native table 'performance_schema'.'session_status' has the wrong structure
+2021-04-25T12:53:14.769284Z 0 [ERROR] Native table 'performance_schema'.'variables_by_thread' has the wrong structure
+2021-04-25T12:53:14.772769Z 0 [ERROR] Native table 'performance_schema'.'global_variables' has the wrong structure
+2021-04-25T12:53:14.774816Z 0 [ERROR] Native table 'performance_schema'.'session_variables' has the wrong structure
+2021-04-25T12:53:14.783405Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2021-04-25T12:53:14.784208Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2021-04-25T12:53:14.838178Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2021-04-25T12:53:14.839590Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2021-04-25T13:00:57.131457Z 2 [Note] Aborted connection 2 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T13:46:49.918845Z 3 [Note] Aborted connection 3 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T13:54:55.867724Z 4 [Note] Aborted connection 4 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T14:34:50.975965Z 5 [Note] Aborted connection 5 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T14:37:39.057593Z 6 [Note] Aborted connection 6 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T14:37:50.556115Z 7 [Note] Aborted connection 7 to db: 'kechengsheji' user: 'tzz' host: 'localhost' (Got an error reading communication packets)
+2021-04-25T16:33:09.585466Z 0 [Note] MySQL: Normal shutdown
+
+2021-04-25T16:33:09.589219Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2021-04-25T16:33:09.589522Z 0 [Note] Shutting down slave threads
+2021-04-25T16:33:09.627735Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2021-04-25T16:33:09.674135Z 0 [Note] Binlog end
+2021-04-25T16:33:09.702770Z 0 [Note] Shutting down plugin 'ngram'
+2021-04-25T16:33:09.706368Z 0 [Note] Shutting down plugin 'partition'
+2021-04-25T16:33:09.706633Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2021-04-25T16:33:09.706885Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2021-04-25T16:33:09.707111Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-04-25T16:33:09.708201Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-04-25T16:33:09.708733Z 0 [Note] Shutting down plugin 'MyISAM'
+2021-04-25T16:33:09.709035Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2021-04-25T16:33:09.710063Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-04-25T16:33:09.710355Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-04-25T16:33:09.710657Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-04-25T16:33:09.710923Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-04-25T16:33:09.711183Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-04-25T16:33:09.711429Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-04-25T16:33:09.711678Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-04-25T16:33:09.711928Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-04-25T16:33:09.712188Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-04-25T16:33:09.712436Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-04-25T16:33:09.712781Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-04-25T16:33:09.713041Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-04-25T16:33:09.714090Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-04-25T16:33:09.714364Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-04-25T16:33:09.714613Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-04-25T16:33:09.714891Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-04-25T16:33:09.715130Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2021-04-25T16:33:09.715397Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-04-25T16:33:09.715669Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-04-25T16:33:09.715934Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-04-25T16:33:09.716187Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-04-25T16:33:09.716466Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-04-25T16:33:09.716726Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-04-25T16:33:09.716982Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-04-25T16:33:09.717217Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-04-25T16:33:09.717462Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2021-04-25T16:33:09.717689Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-04-25T16:33:09.717940Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-04-25T16:33:09.718175Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2021-04-25T16:33:09.718403Z 0 [Note] Shutting down plugin 'InnoDB'
+2021-04-25T16:33:09.728703Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-25T16:33:09.729150Z 0 [Note] InnoDB: Starting shutdown...
+2021-04-25T16:33:09.860667Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\Softwares\mysql-5.7.34-win32\data\ib_buffer_pool
+2021-04-25T16:33:09.861923Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 210426  0:33:09
+2021-04-25T16:33:10.999320Z 0 [Note] InnoDB: Shutdown completed; log sequence number 5872725
+2021-04-25T16:33:10.999849Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-25T16:33:11.000172Z 0 [Note] Shutting down plugin 'MEMORY'
+2021-04-25T16:33:11.000684Z 0 [Note] Shutting down plugin 'CSV'
+2021-04-25T16:33:11.001201Z 0 [Note] Shutting down plugin 'sha256_password'
+2021-04-25T16:33:11.001443Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2021-04-25T16:33:11.001976Z 0 [Note] Shutting down plugin 'binlog'
+2021-04-25T16:33:11.003200Z 0 [Note] MySQL: Shutdown complete
+
+2021-04-25T16:33:37.114656Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-04-25T16:33:37.135692Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-04-25T16:33:37.135719Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2021-04-25T16:33:37.135755Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-04-25T16:33:37.156370Z 0 [Note] MySQL (mysqld 5.7.34) starting as process 5072 ...
+2021-04-25T16:33:37.481250Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-04-25T16:33:37.483148Z 0 [Note] InnoDB: Uses event mutexes
+2021-04-25T16:33:37.484844Z 0 [Note] InnoDB: Memory barrier is not used
+2021-04-25T16:33:37.485615Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-25T16:33:37.490720Z 0 [Note] InnoDB: Number of pools: 1
+2021-04-25T16:33:37.498948Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2021-04-25T16:33:37.512177Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-04-25T16:33:37.532420Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-25T16:33:37.694229Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-04-25T16:33:39.292421Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-25T16:33:39.293298Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-25T16:33:39.755831Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2021-04-25T16:33:39.757793Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-04-25T16:33:39.758511Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-04-25T16:33:39.759761Z 0 [Note] InnoDB: Waiting for purge to start
+2021-04-25T16:33:39.929932Z 0 [Note] InnoDB: Waiting for purge to start
+2021-04-25T16:33:40.126792Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 5872725
+2021-04-25T16:33:40.164202Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Softwares\mysql-5.7.34-win32\data\ib_buffer_pool
+2021-04-25T16:33:40.239668Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-04-25T16:33:40.378897Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210426  0:33:40
+2021-04-25T16:33:40.459560Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2021-04-25T16:33:40.559709Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-04-25T16:33:40.671888Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-04-25T16:33:40.672950Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-04-25T16:33:40.711764Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-04-25T16:33:40.713065Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-04-25T16:33:40.743813Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-04-25T16:33:40.745740Z 0 [Note] IPv6 is available.
+2021-04-25T16:33:40.746341Z 0 [Note]   - '::' resolves to '::';
+2021-04-25T16:33:40.746853Z 0 [Note] Server socket created on IP: '::'.
+2021-04-25T16:33:40.811637Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2021-04-25T16:33:41.258587Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2021-04-25T16:33:41.259504Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2021-04-25T16:33:41.260182Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2021-04-25T16:33:41.260895Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2021-04-25T16:33:41.261436Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2021-04-25T16:33:41.355434Z 0 [Warning] System table 'servers' is expected to be transactional.
+2021-04-25T16:33:41.434069Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-04-25T16:33:41.449497Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2021-04-25T16:33:41.452499Z 0 [Note] Failed to start slave threads for channel ''
+2021-04-25T16:33:41.527147Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T16:33:41.532767Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T16:33:41.543494Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2021-04-25T16:33:41.759377Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:41.772413Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:41.896396Z 0 [ERROR] Column count of performance_schema.setup_actors is wrong. Expected 5, found 3. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:41.900071Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2021-04-25T16:33:41.906722Z 0 [ERROR] Column count of performance_schema.table_lock_waits_summary_by_table is wrong. Expected 68, found 73. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:41.909400Z 0 [ERROR] Column count of performance_schema.threads is wrong. Expected 17, found 14. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:41.924524Z 0 [ERROR] Column count of performance_schema.events_stages_current is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:41.953807Z 0 [ERROR] Column count of performance_schema.events_stages_history is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:41.978192Z 0 [ERROR] Column count of performance_schema.events_stages_history_long is wrong. Expected 12, found 10. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:42.016502Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:42.055552Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:42.151059Z 0 [ERROR] Column count of performance_schema.events_statements_current is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:42.194138Z 0 [ERROR] Column count of performance_schema.events_statements_history is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:42.205538Z 0 [ERROR] Column count of performance_schema.events_statements_history_long is wrong. Expected 41, found 40. Created with MySQL 50635, now running 50734. Please use mysql_upgrade to fix this error.
+2021-04-25T16:33:42.278988Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:42.288695Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:42.320388Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_program' has the wrong structure
+2021-04-25T16:33:42.321436Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_current' has the wrong structure
+2021-04-25T16:33:42.327936Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history' has the wrong structure
+2021-04-25T16:33:42.329097Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history_long' has the wrong structure
+2021-04-25T16:33:42.330033Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_thread_by_event_name' has the wrong structure
+2021-04-25T16:33:42.330988Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_account_by_event_name' has the wrong structure
+2021-04-25T16:33:42.332058Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_user_by_event_name' has the wrong structure
+2021-04-25T16:33:42.333509Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_host_by_event_name' has the wrong structure
+2021-04-25T16:33:42.334529Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_global_by_event_name' has the wrong structure
+2021-04-25T16:33:42.337038Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:42.430427Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2021-04-25T16:33:42.483594Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_global_by_event_name' has the wrong structure
+2021-04-25T16:33:42.484457Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_account_by_event_name' has the wrong structure
+2021-04-25T16:33:42.485224Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_host_by_event_name' has the wrong structure
+2021-04-25T16:33:42.485983Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_thread_by_event_name' has the wrong structure
+2021-04-25T16:33:42.486991Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_user_by_event_name' has the wrong structure
+2021-04-25T16:33:42.487996Z 0 [ERROR] Native table 'performance_schema'.'table_handles' has the wrong structure
+2021-04-25T16:33:42.489098Z 0 [ERROR] Native table 'performance_schema'.'metadata_locks' has the wrong structure
+2021-04-25T16:33:42.489937Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_configuration' has the wrong structure
+2021-04-25T16:33:42.490924Z 0 [ERROR] Native table 'performance_schema'.'replication_group_members' has the wrong structure
+2021-04-25T16:33:42.492122Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_status' has the wrong structure
+2021-04-25T16:33:42.517158Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_configuration' has the wrong structure
+2021-04-25T16:33:42.518548Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status' has the wrong structure
+2021-04-25T16:33:42.520300Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_coordinator' has the wrong structure
+2021-04-25T16:33:42.521201Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_worker' has the wrong structure
+2021-04-25T16:33:42.521963Z 0 [ERROR] Native table 'performance_schema'.'replication_group_member_stats' has the wrong structure
+2021-04-25T16:33:42.525194Z 0 [ERROR] Native table 'performance_schema'.'prepared_statements_instances' has the wrong structure
+2021-04-25T16:33:42.526002Z 0 [ERROR] Native table 'performance_schema'.'user_variables_by_thread' has the wrong structure
+2021-04-25T16:33:42.527554Z 0 [ERROR] Native table 'performance_schema'.'status_by_account' has the wrong structure
+2021-04-25T16:33:42.528315Z 0 [ERROR] Native table 'performance_schema'.'status_by_host' has the wrong structure
+2021-04-25T16:33:42.529316Z 0 [ERROR] Native table 'performance_schema'.'status_by_thread' has the wrong structure
+2021-04-25T16:33:42.530280Z 0 [ERROR] Native table 'performance_schema'.'status_by_user' has the wrong structure
+2021-04-25T16:33:42.531513Z 0 [ERROR] Native table 'performance_schema'.'global_status' has the wrong structure
+2021-04-25T16:33:42.533064Z 0 [ERROR] Native table 'performance_schema'.'session_status' has the wrong structure
+2021-04-25T16:33:42.572840Z 0 [ERROR] Native table 'performance_schema'.'variables_by_thread' has the wrong structure
+2021-04-25T16:33:42.574893Z 0 [ERROR] Native table 'performance_schema'.'global_variables' has the wrong structure
+2021-04-25T16:33:42.575616Z 0 [ERROR] Native table 'performance_schema'.'session_variables' has the wrong structure
+2021-04-25T16:33:42.595169Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2021-04-25T16:33:42.596056Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2021-04-25T16:33:42.636651Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2021-04-25T16:33:42.691551Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
